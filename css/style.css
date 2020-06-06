@@ -1,0 +1,308 @@
+.container1 {
+    max-width: 1000px;
+    margin: 120px auto;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-left: auto;
+    border: 1px;
+    background-color: white;
+    display: block;
+  }
+
+  
+  body  {
+    background-image: url(../img/WoodBackground.jpg);
+    background-size: cover;
+    flex-wrap: nowrap;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+  
+  }
+    
+        header {
+        display: flex;
+        background: lightgoldenrodyellow;
+        padding: 20px;
+        height: 175px;
+        justify-content: space-between;
+        
+        
+    }
+
+
+    .bottompad {
+        
+        margin-bottom: 50px;
+        
+    }
+
+    p   {
+       
+        margin: 25px;
+        font-size: 24px;
+        font-family:'Roboto', sans-serif;
+        justify-content: center;
+        text-align: justify;
+        color: black;
+        
+    }
+
+    span {
+        margin: 25px;
+        font-size: 24px;
+        font-family:'Roboto', sans-serif;
+        justify-content: center;
+        
+        
+    }
+
+    figure  {
+        margin: 0;
+    }
+
+    ul  {
+        list-style-type: none;
+    }
+   
+    li {
+        font-size: 16px;
+    
+    }
+
+    a   {
+        text-decoration: none;
+        color: black;
+        font-family:'Roboto', sans-serif;
+        font-weight: bold;
+    
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 75px;
+        width: 80%;
+        background-color: lightgoldenrodyellow;
+        color: black;
+        
+    }
+
+
+    a:hover {
+        color: darkgoldenrod;
+
+    }
+
+    .h1, .h2  {
+        text-align: center;
+        font-family: 'Amatic SC', cursive;
+        font-size: 36px;    
+        font-weight: bold;
+        color: black;
+        padding: 25px;
+     }
+
+
+     .row {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        color: black;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        padding: 25px;
+        
+      }
+         
+      .column {
+        align-items: center;
+        background-position: center center;
+        display: flex;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 24px;  
+        justify-content: space-evenly;
+        padding: 25px;
+
+
+      }
+
+      .center {
+          display: flex;
+          justify-content: center;
+          padding: 50px;
+      }
+
+      .width100 {
+         width: 100%;
+         height: 610px;
+         
+      }
+          
+    
+      div#carousel > figure > img {
+        display: none;
+        margin: 0px auto;
+        padding: 0px auto;
+    }
+    
+    div#carousel > figure.visible > img {
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    div#carousel > figure > figcaption {
+        display: none;
+    }
+    
+    div#carousel > figure.visible > figcaption {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+   
+    .div1   {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 38px;
+        font-family: caveat;
+        margin: 50px;
+        padding: 10px;
+
+    }
+
+    .main-container {
+        min-height: 100vh; 
+        overflow: hidden;
+        display: block;
+        position: relative;
+        padding-bottom: 100px; 
+        width: 100%;
+        top: 0;
+        margin: 0;
+       }
+
+       .footer1 {
+        
+        bottom: 0;
+        width: 100%;
+        background: lightgoldenrodyellow;
+        color: black;
+        font-family:'Roboto', sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+        text-align: center;
+       
+        
+       }
+
+       .button1 {
+        text-align: center;
+        justify-content: center;
+        padding: 25px;
+        color: black;
+        font-size : 28px; 
+        margin: 30px;
+        font-family:'Roboto', sans-serif;
+        }
+
+        button  {
+          background-color: lightgoldenrodyellow;
+        }
+
+      .row1 {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: nowrap;
+          text-align: bottom;
+          padding: 35px;
+  
+      }
+
+      .column1  {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        color: black;
+        font-family:'Roboto', sans-serif;
+        justify-content: space-around;
+        text-align: bottom;
+        margin: 0;
+        padding: 0;
+      } 
+
+      .grid-city2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        font-family:'Roboto', sans-serif;
+        color: black;
+        align-items: center;
+      }
+      
+      
+      .grid-city3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 25px;
+        font-family:'Roboto', sans-serif;
+        color: black;
+        align-items: center;
+        margin: 25px;
+      }
+
+      .roundimg {
+          border-radius: 10px;
+      }
+
+      .infop    {
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: justify;
+      }
+
+     .bottominfo {
+        display: flex;
+        columns: 3;
+        list-style-type: none;
+        margin: 0px;
+        padding: 25px;
+        max-width: 85%;
+        text-align: center;
+        margin: auto;
+      }
+
+      .bottominfoli {
+        display: flex;
+        padding: 5px;
+        margin: 12px;
+        background-color: lightgoldenrodyellow;
+        border-radius: 10px;
+        white-space: nowrap;
+        font-weight: bolder;
+      }
+
+      h4 {
+        display: flex;
+        font-family:'Roboto', sans-serif;
+        font-size: 24px;
+        line-height: 3;
+        text-transform: uppercase;
+        color: black;
+        justify-content: space-evenly;
+      }
+      
+
+      .headerimg    {
+        height:135px; 
+        width:20%;
+      }
+
+      .amatic {
+        font-family: 'Amatic SC', cursive;
+        font-size: 26px;
+        color: black;
+      }
