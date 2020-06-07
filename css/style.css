@@ -145,10 +145,9 @@
 
       }
 
-      .center {
-          display: flex;
-          justify-content: center;
-          padding: 0 25px 25px 25px;
+      .center1 {
+          text-align: center;
+          padding: 45px;
       }
 
       .width100 {
