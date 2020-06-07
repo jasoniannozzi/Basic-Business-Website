@@ -47,7 +47,8 @@
     .custom-toggler.navbar-toggler { 
       border-color: black; 
       border-style: groove;
-      border-width: 2px;
+      border-width: 1px;
+      height: 85px;
   } 
 
 
