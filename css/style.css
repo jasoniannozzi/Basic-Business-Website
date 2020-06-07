@@ -10,6 +10,7 @@
     display: block;
   }
 
+
   
   body  {
     background-image: url(../img/WoodBackground.jpg);
@@ -23,13 +24,31 @@
     
         header {
         display: flex;
+        justify-content: space-evenly;
         background: lightgoldenrodyellow;
         padding: 20px;
         height: 175px;
-        justify-content: space-between;
+     
         
         
     }
+
+    .navbar-custom  {
+      background-color: lightgoldenrodyellow;
+
+    }
+
+
+    .navbar-custom .navbar-brand, 
+    .navbar-custom .navbar-text { 
+    color: black; 
+    } 
+
+    .custom-toggler.navbar-toggler { 
+      border-color: black; 
+      border-style: groove;
+      border-width: 2px;
+  } 
 
 
     .bottompad {
@@ -64,10 +83,14 @@
 
     ul  {
         list-style-type: none;
+        
+      
     }
    
     li {
-        font-size: 16px;
+        font-size: 22px;
+
+        
     
     }
 
@@ -76,18 +99,11 @@
         color: black;
         font-family:'Roboto', sans-serif;
         font-weight: bold;
+        margin: 5px;
     
     }
 
-    nav {
-        display: flex;
-        justify-content: space-around;
-        padding: 50px 75px;
-        width: 80%;
-        background-color: lightgoldenrodyellow;
-        color: black;
-        
-    }
+    
 
 
     a:hover {
@@ -131,7 +147,7 @@
       .center {
           display: flex;
           justify-content: center;
-          padding: 50px;
+          padding: 0 25px 25px 25px;
       }
 
       .width100 {
@@ -270,7 +286,6 @@
         list-style-type: none;
         margin: 0px;
         padding: 25px;
-        max-width: 85%;
         text-align: center;
         margin: auto;
       }
@@ -279,26 +294,26 @@
         display: flex;
         padding: 5px;
         margin: 12px;
-        background-color: lightgoldenrodyellow;
+        background-color: burlywood;
         border-radius: 10px;
         white-space: nowrap;
         font-weight: bolder;
       }
 
-      h4 {
+      .h4 {
         display: flex;
         font-family:'Roboto', sans-serif;
         font-size: 24px;
         line-height: 3;
-        text-transform: uppercase;
         color: black;
-        justify-content: space-evenly;
+        justify-content: center;
       }
       
 
       .headerimg    {
         height:135px; 
         width:20%;
+        margin: 25px;
       }
 
       .amatic {

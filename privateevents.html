@@ -18,15 +18,40 @@
 
 <body>
     <div class="container1">
-        <header><img src="img/NewLogo.png" height="125px" width="20%" class="headerimg" alt="logo" />
-            <nav>
-                <a href="./index.html"> Main</a>
-                <a href="./information.html"> Information</a>
-                <a href="./Reservations.html"> Reservations</a>
-                <a href="./privateevents.html"> Private Events</a>
-                <a href="./Menu.html"> Menu</a>
-            </nav>
-        </header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <img src="img/NewLogo.png" class="headerimg" alt="logo" />
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fab fa-buffer" style="font-size: 32px"></i></span>
+            </button>
+            <a class="navbar-brand" href="./img/NewLogo.png"></a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">Main <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./information.html">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Reservations.html">Reservations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./privateevents.html">Private Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./API.html">API</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
 
         <div id="carousel">
             <figure class="visible">
@@ -49,26 +74,33 @@
         <section>
             <h1 class="h1">The River Room</h1>
             <p>
-            The River Room at The Bridge Café is uniquely capable of offering your guests an unsurpassed setting for
-            private dining with spectacular views overlooking New York Harbor, The Brooklyn Bridge and the Manhattan
-            skyline.
+                The River Room at The Bridge Café is uniquely capable of offering your guests an unsurpassed setting for
+                private dining with spectacular views overlooking New York Harbor, The Brooklyn Bridge and the Manhattan
+                skyline.
             </p>
             <p>
-            Inquiries about special events or corporate dinners (30 to 100 guests) are handled by the Director of
-            Private Events, who will assist in planning every detail. For additional information contact
-            privateevents@bridgecafe.com
+                Inquiries about special events or corporate dinners (30 to 100 guests) are handled by the Director of
+                Private Events, who will assist in planning every detail. For additional information contact
+                privateevents@bridgecafe.com
             </p>
         </section>
         <footer class="footer1">
             9856 Riverwalk Drive Brooklyn, NY 11223 <br> Contact Us: (718) 555-8855 <br> Hours: <br> Monday-Friday:
             5:00pm-11:00pm Saturday: 11:00am-2:00am Sunday: 11:00am-11:00pm<br>
         </footer>
-        <script type="text/javascript" src="./js/script.js">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/script.js">
         </script>
+
         <script src="https://kit.fontawesome.com/ca0114e19b.js" crossorigin="anonymous"></script>
-        <script type="text/jquery" src="js/jquery-3.5.1.min.js"></script>
     </div>
-   
+
 </body>
-
-
