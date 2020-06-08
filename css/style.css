@@ -52,9 +52,14 @@
   } 
 
 
+  .picpad {
+    padding: 25px;
+  }
+
     .bottompad {
         
         margin-bottom: 50px;
+        
         
     }
 
@@ -128,7 +133,6 @@
         display: flex;
         color: black;
         justify-content: space-evenly;
-        flex-wrap: nowrap;
         padding: 25px;
         
       }
@@ -148,6 +152,7 @@
       .center1 {
           text-align: center;
           padding: 45px;
+          
       }
 
       .width100 {
