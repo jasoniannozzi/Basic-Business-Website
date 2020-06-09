@@ -6,6 +6,7 @@
     margin-bottom: 100px;
     margin-left: auto;
     border: 1px;
+    border-radius: 25px;
     background-color: white;
     display: block;
   }
@@ -13,7 +14,8 @@
 
   
   body  {
-    background-image: url(../img/WoodBackground.jpg);
+    background-image: url(../img/darkwood1.jpg);
+    image-rendering: auto;
     background-size: cover;
     flex-wrap: nowrap;
     background-attachment: fixed;
@@ -25,7 +27,7 @@
         header {
         display: flex;
         justify-content: space-evenly;
-        background: lightgoldenrodyellow;
+        background: linen;
         padding: 20px;
         height: 175px;
      
@@ -34,7 +36,7 @@
     }
 
     .navbar-custom  {
-      background-color: lightgoldenrodyellow;
+      background-color: linen;
 
     }
 
@@ -113,7 +115,7 @@
 
 
     a:hover {
-        color: darkgoldenrod;
+        color: goldenrod;
 
     }
 
@@ -131,8 +133,9 @@
         align-items: center;
         text-align: center;
         display: flex;
+        flex-wrap: wrap;
         color: black;
-        justify-content: space-evenly;
+        justify-content: space-around;
         padding: 25px;
         
       }
@@ -152,6 +155,7 @@
       .center1 {
           text-align: center;
           padding: 45px;
+          margin-bottom: 25px;
           
       }
 
@@ -210,7 +214,7 @@
         
         bottom: 0;
         width: 100%;
-        background: lightgoldenrodyellow;
+        background: linen;
         color: black;
         font-family:'Roboto', sans-serif;
         font-weight: bolder;
@@ -220,18 +224,26 @@
         
        }
 
-       .button1 {
+       button {
         text-align: center;
         justify-content: center;
         padding: 25px;
         color: black;
         font-size : 28px; 
-        margin: 30px;
+        margin: 25px;
         font-family:'Roboto', sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+        text-shadow: 1px 1px 1px #000;
+        transition: 0.4s ease-in-out;
         }
 
         button  {
           background-color: lightgoldenrodyellow;
+        }
+
+        button:hover {
+          background-color: burlywood ;
         }
 
       .row1 {
@@ -268,10 +280,12 @@
       .grid-city3 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, 225px);
         grid-gap: 25px;
         font-family:'Roboto', sans-serif;
         color: black;
         align-items: center;
+        justify-content: center;
         margin: 25px;
       }
 
@@ -287,11 +301,13 @@
 
      .bottominfo {
         display: flex;
+        flex-wrap: wrap;
         columns: 3;
         list-style-type: none;
         margin: 0px;
         padding: 25px;
         text-align: center;
+        justify-content: center;
         margin: auto;
       }
 
@@ -299,9 +315,11 @@
         display: flex;
         padding: 5px;
         margin: 12px;
-        background-color: burlywood;
+        background-color: brown;
+        color: white;
         border-radius: 10px;
         white-space: nowrap;
+        flex-wrap: wrap;
         font-weight: bolder;
       }
 
@@ -312,6 +330,7 @@
         line-height: 3;
         color: black;
         justify-content: center;
+        text-align: center;
       }
       
 
@@ -325,4 +344,16 @@
         font-family: 'Amatic SC', cursive;
         font-size: 26px;
         color: black;
+      }
+
+      .resfont  {
+        font-size : 28px; 
+        font-family: Roboto;
+        padding: 20px; 
+        text-align: justify;
+        font-weight: bold;
+        
+        
+        
+        
       }
