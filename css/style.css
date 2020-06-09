@@ -27,7 +27,7 @@
         header {
         display: flex;
         justify-content: space-evenly;
-        background: linen;
+        background: lightgoldenrodyellow;
         padding: 20px;
         height: 175px;
      
@@ -36,7 +36,7 @@
     }
 
     .navbar-custom  {
-      background-color: linen;
+      background-color: lightgoldenrodyellow;
 
     }
 
@@ -214,7 +214,7 @@
         
         bottom: 0;
         width: 100%;
-        background: linen;
+        background:lightgoldenrodyellow;
         color: black;
         font-family:'Roboto', sans-serif;
         font-weight: bolder;
