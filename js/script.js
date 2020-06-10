@@ -62,13 +62,5 @@ const showResults = function(results) {
   
   $(bootUp) 
 
-  $(function () {
-    alert('jQuery TEST PAGE, WORK IN PROGRESS');
-  });
-
-  $(function () {
-    $('h1').text('Plan your next trip');
-  });
-
 
 
