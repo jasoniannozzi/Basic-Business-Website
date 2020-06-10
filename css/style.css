@@ -230,7 +230,6 @@
         padding: 25px;
         color: black;
         font-size : 28px; 
-        margin: 25px;
         font-family:'Roboto', sans-serif;
         font-weight: bold;
         cursor: pointer;
@@ -348,7 +347,7 @@
 
       .resfont  {
         font-size : 28px; 
-        font-family: Roboto;
+        font-family: 'Roboto', Arial, sans-serif;
         padding: 20px; 
         text-align: justify;
         font-weight: bold;
@@ -356,4 +355,65 @@
         
         
         
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+        font-family:'Roboto', Arial, sans-serif;
+        font-weight: bold;
+
+      }
+
+      
+      .waterview  {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/The_River_Cafe_at_night.jpg/1200px-The_River_Cafe_at_night.jpg");
+        background-size:cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        
+      }
+
+      .wrapper  {
+        position: absolute;
+        background: rgba(0,0,0,0.6);
+        width: 500px;
+        padding: 15px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .wrapper .input {
+        width: 85%;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+
+      .searchbtn  {
+        background: lightgoldenrodyellow;
+        width: 10%;
+        border-radius: 5px;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .searchbtn:hover {
+        background-color: burlywood ;
+      }
+
+      .searchbtn .fas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 18px;
       }
