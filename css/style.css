@@ -55,7 +55,11 @@
 
 
   .picpad {
+    border-radius: 10px;
     padding: 25px;
+    height: 400px;
+    width: 450px;
+    
   }
 
     .bottompad {
@@ -288,9 +292,7 @@
         margin: 25px;
       }
 
-      .roundimg {
-          border-radius: 10px;
-      }
+  
 
       .infop    {
         font-size: 24px;
@@ -417,3 +419,21 @@
         transform: translate(-50%,-50%);
         font-size: 18px;
       }
+
+      .giphresults {
+        
+          display: flex;
+          flex-direction: column;
+          margin: 25px;
+          font-family:'Roboto', sans-serif;
+          color: black;
+          justify-content: center;
+          padding: 10px;
+          position: relative;
+          width: 100%; /* or any custom size */
+          height: 100%; 
+          object-fit: contain;
+        
+
+      }
+      

@@ -25,6 +25,7 @@ function startPlayback() {
 }
 
 const showResults = function(results) {
+    
     let html = "";
     results.map(function(result) {
       console.log(result.images.original.url);
@@ -36,7 +37,7 @@ const showResults = function(results) {
   };
   
   const fetchSearchResults = function(searchValue) {
-    let url = `https://api.giphy.com/v1/gifs/search?api_key=KA4bCwoX66gmvt7ogoGShUai2L59BFaQq=${searchValue}`;
+    let url = `https://api.giphy.com/v1/gifs/search?api_key=4zv45wmD5vJvLn2UE3B4tNBY1ny9kZZV&q=${searchValue}`;
     console.log(url);
     fetch(url)
       .then(function(res) {
