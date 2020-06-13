@@ -161,6 +161,7 @@
 
       .center1 {
           text-align: center;
+          justify-content: center;
           padding: 45px;
           margin-bottom: 25px;
           
