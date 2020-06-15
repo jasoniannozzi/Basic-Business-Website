@@ -27,7 +27,7 @@
         header {
         display: flex;
         justify-content: space-evenly;
-        background: lightgoldenrodyellow;
+        background: floralwhite;
         padding: 20px;
         height: 175px;
      
@@ -36,7 +36,7 @@
     }
 
     .navbar-custom  {
-      background-color: lightgoldenrodyellow;
+      background-color: floralwhite;
 
     }
 
@@ -223,7 +223,7 @@
         
         bottom: 0;
         width: 100%;
-        background:lightgoldenrodyellow;
+        background:floralwhite;
         color: black;
         font-family:'Roboto', sans-serif;
         font-weight: bolder;
