@@ -141,13 +141,19 @@
         align-items: center;
         text-align: center;
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
         color: black;
         justify-content: space-around;
         padding: 25px;
         
       }
+
+      @media screen and (min-width: 769px) {
+        .row {
+          flex-direction: column;
+        }
+      }
+  
          
       .row2 {
         align-items: center;
