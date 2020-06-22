@@ -1,5 +1,5 @@
 .container1 {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 120px auto;
     margin-top: 100px;
     margin-right: auto;
@@ -141,6 +141,7 @@
         align-items: center;
         text-align: center;
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         color: black;
         justify-content: space-around;
@@ -148,6 +149,18 @@
         
       }
          
+      .row2 {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        justify-content: space-around;
+        padding: 25px;
+        
+      }
+        
+
       .column {
         align-items: center;
         background-position: center center;
@@ -357,11 +370,14 @@
         padding: 20px; 
         text-align: left;
         font-weight: bold;
-        
-        
-        
-        
       }
+
+      @media screen and (min-width: 769px) {
+      .resfont {
+        font-size: 24px;
+      }
+    }
+
 
       * {
         margin: 0;
