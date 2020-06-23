@@ -56,8 +56,16 @@
   }
 
   .roundimg {
+    height: 250px;
+    width: 300px;
     border-radius: 10px;
     margin: 10px;
+  }
+
+  
+  iframe  {
+    height: 250px;
+    width: 300px;
   }
 
   .menuimg  {
@@ -69,13 +77,13 @@
 
   @media screen and (min-width: 769px)  {
     .roundimg {
-      height: 250px;
-      width: 300px;
+      width: 550px;
+      height: 350px;
     }
   
     iframe  {
-      height: 250px;
-      width: 300px;
+      height: 350px;
+      width: 550px;
     }
 
     .menuimg  {
