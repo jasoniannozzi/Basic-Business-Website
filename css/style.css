@@ -55,13 +55,19 @@
       color: blanchedalmond;
   }
 
-  .roundimg {
+  .roundimg1 {
     height: 250px;
     width: 300px;
     border-radius: 10px;
     margin: 10px;
   }
 
+  .roundimg1 {
+    height: 350px;
+    width: 550px;
+    border-radius: 10px;
+    margin: 10px;
+  }
   
   iframe  {
     height: 250px;
@@ -79,6 +85,10 @@
     .roundimg {
       width: 350px;
       
+    }
+
+    .roundimg {
+      width: 350px;
     }
   
     iframe  {
