@@ -59,7 +59,7 @@
     height: 200px;
     width: 250px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px;
   }
 
   .roundimg1 {
@@ -309,6 +309,12 @@
         cursor: pointer;
         text-shadow: 1px 1px 1px #000;
         transition: 0.4s ease-in-out;
+        }
+
+        @media screen and (max-width: 769px) {
+          button  {
+            font-size : 16px;
+          }
         }
 
         button  {
