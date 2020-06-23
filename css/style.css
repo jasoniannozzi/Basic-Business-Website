@@ -60,19 +60,17 @@
     margin: 10px;
   }
 
-  @media screen and (max-width: 769px)  {
-    .roundimg {
-      height: 250px;
-      width: 300px;
-    }
-
   .menuimg  {
     border-radius: 10px;
     margin: 10px;
   }
 
- 
-
+  @media screen and (max-width: 769px)  {
+    .roundimg {
+      height: 250px;
+      width: 300px;
+    }
+  
     iframe  {
       height: 250px;
       width: 300px;
