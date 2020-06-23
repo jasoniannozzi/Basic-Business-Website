@@ -61,6 +61,8 @@
   }
 
   .menuimg  {
+    height: 1050px;
+    width: 90%; 
     border-radius: 10px;
     margin: 10px;
   }
@@ -74,6 +76,10 @@
     iframe  {
       height: 250px;
       width: 300px;
+    }
+
+    .menuimg  {
+      height: 600px;
     }
   }
 
