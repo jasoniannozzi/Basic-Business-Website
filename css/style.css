@@ -55,7 +55,7 @@
       color: blanchedalmond;
   }
 
-  .roundimg1 {
+  .roundimg {
     height: 250px;
     width: 300px;
     border-radius: 10px;
@@ -63,8 +63,8 @@
   }
 
   .roundimg1 {
-    height: 350px;
-    width: 550px;
+    height: 250px;
+    width: 300px;
     border-radius: 10px;
     margin: 10px;
   }
@@ -82,13 +82,14 @@
   }
 
   @media screen and (min-width: 769px)  {
+
     .roundimg {
-      width: 350px;
+      width: 400px;
       
     }
 
-    .roundimg {
-      width: 350px;
+    .roundimg1 {
+      width: 550px;
     }
   
     iframe  {
