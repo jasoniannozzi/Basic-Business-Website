@@ -1,29 +1,30 @@
-.container1 {
-    max-width: 1200px;
-    margin: 120px auto;
-    margin-top: 100px;
+  body {
+  margin: 0px;
+  max-width: 100vw;
+  max-height: 100vh;
+  background-image: url(../img/darkwood1.jpg);
+  background-size: cover;
+  image-rendering: auto;
+  flex-wrap: nowrap;
+}
+
+  .container {
+    width: 100%;
     margin-right: auto;
-    margin-bottom: 100px;
     margin-left: auto;
-    border: 1px;
-    border-radius: 25px;
     background-color: white;
-    display: block;
-  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: bold;
+}
 
 
-  
-  body  {
-    background-image: url(../img/darkwood1.jpg);
-    image-rendering: auto;
-    background-size: cover;
-    flex-wrap: nowrap;
-    background-attachment: fixed;
-    background-position: center;
-    margin: 0;
-  
-  }
-    
         header {
         display: flex;
         justify-content: space-evenly;
@@ -35,7 +36,7 @@
         
     }
 
-    .navbar-custom  {
+    .navcustom  {
       background-color: floralwhite;
 
     }
@@ -46,17 +47,29 @@
     color: black; 
     } 
 
-    .custom-toggler.navbar-toggler { 
-      border-color: black; 
-      border-style: groove;
-      border-width: 1px;
-      height: 85px;
-  } 
-
+  
+    .topnav {
+      display: flex;
+      width: 35%;
+      justify-content: space-between;
+      color: whitesmoke;
+  }
 
   .roundimg {
     border-radius: 10px;
     margin: 10px;
+  }
+
+  @media screen and (max-width: 769px)  {
+    .roundimg {
+      height: 250px;
+      width: 300px;
+    }
+
+    iframe  {
+      height: 250px;
+      width: 300px;
+    }
   }
 
   .picpad {
@@ -85,7 +98,7 @@
     }
 
     span {
-        margin: 25px;
+        margin: 5px;
         font-size: 24px;
         font-family:'Roboto', sans-serif;
         justify-content: center;
@@ -269,9 +282,7 @@
           background-color: lightgoldenrodyellow;
         }
 
-        button:hover {
-          background-color: burlywood ;
-        }
+      
 
       .row1 {
           display: flex;
@@ -306,7 +317,7 @@
       
       .grid-city3 {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-columns: repeat(auto-fit, 225px);
         grid-gap: 25px;
         font-family:'Roboto', sans-serif;
@@ -316,7 +327,11 @@
         margin: 25px;
       }
 
-  
+      @media screen and (max-width: 769px)  {
+        .grid-city3 {
+          font-size: 14px;
+        }
+      }
 
       .infop    {
         font-size: 24px;
@@ -374,13 +389,14 @@
         font-size : 16px; 
         font-family: 'Roboto', Arial, sans-serif;
         padding: 20px; 
-        text-align: left;
+        text-align: justify;
         font-weight: bold;
       }
 
       @media screen and (min-width: 769px) {
       .resfont {
-        font-size: 24px;
+        font-size: 30px;
+        text-align: justify;
       }
     }
 
