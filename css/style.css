@@ -28,7 +28,7 @@
         header {
         display: flex;
         justify-content: space-evenly;
-        background: blanchedalmond;
+        background: oldlace;
         padding: 20px;
         height: 175px;
      
@@ -37,7 +37,7 @@
     }
 
     .navcustom  {
-      background-color: blanchedalmond;
+      background-color: oldlace;
 
     }
 
@@ -52,7 +52,7 @@
       display: flex;
       width: 35%;
       justify-content: space-between;
-      color: blanchedalmond;
+      color: oldlace;
   }
 
   .roundimg {
@@ -288,7 +288,7 @@
         
         bottom: 0;
         width: 100%;
-        background: blanchedalmond;
+        background: oldlace;
         color: black;
         font-family:'Roboto', sans-serif;
         font-weight: bolder;
