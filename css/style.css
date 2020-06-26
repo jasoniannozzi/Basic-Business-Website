@@ -308,7 +308,7 @@
         font-weight: bold;
         cursor: pointer;
         text-shadow: 1px 1px 1px #000;
-        transition: 0.4s ease-in-out;
+        
         }
 
         @media screen and (max-width: 769px) {
@@ -321,6 +321,10 @@
           background-color: lightgoldenrodyellow;
         }
 
+        button:hover  {
+          background-color: sandybrown;
+          transition: 0.4s ease-in-out;
+        }
       
 
       .row1 {
