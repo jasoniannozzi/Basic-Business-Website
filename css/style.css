@@ -32,9 +32,7 @@
         padding: 20px;
         height: 175px;
      
-        
-        
-    }
+      }
 
     .navcustom  {
       background-color: oldlace;
@@ -293,7 +291,8 @@
         font-family:'Roboto', sans-serif;
         font-weight: bolder;
         font-size: 16px;
-        padding: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         text-align: center;
        }
 
